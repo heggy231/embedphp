@@ -20,7 +20,8 @@ $description = 'A hilarious romp. You will love the book, but maybe not the answ
 <!--echo to display simple variables-->
 <h2><?php echo $title; ?></h2>
 <p class="author">by <?php print $author; ?></p>
-<p><?= $description ?></p>
+<!--answer: 42 added space . ' ' .-->
+<p><?= $description . ' ' . $answer; ?></p>
 <p>Price: </p>
 </body>
 </html>
