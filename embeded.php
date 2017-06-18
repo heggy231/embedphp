@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Embedding PHP in HTML<title>
+<title>Embedding PHP in HTML</title>
 </head>
 
 <body>
