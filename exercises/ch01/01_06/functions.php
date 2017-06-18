@@ -12,7 +12,9 @@ $city = 'London';
 <body>
 <h1>Using Functions</h1>
 <p><span class="label">Original value:</span> <?php echo $city; ?></p>
-<p><span class="label">Uppercase:</span>      <?php echo $city; ?></p>
+<p><span class="label">Uppercase:</span>      <?php echo strtoupper($city); ?></p>
+<?php $converted = strtoupper($city); ?>
 <p><span class="label">Original value:</span> <?php echo $city; ?></p>
+<p><span class="label">Converted value:</span> <?= $converted; ?>
 </body
 ></html>
