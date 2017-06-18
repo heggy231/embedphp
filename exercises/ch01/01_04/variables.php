@@ -19,7 +19,7 @@ $description = 'A hilarious romp. You will love the book, but maybe not the answ
 <p>This week's recommended reading:</p>
 <!--echo to display simple variables-->
 <h2><?php echo $title; ?></h2>
-<p class="author">by A.N. Other</p>
+<p class="author">by <?php echo $author; ?></p>
 <p>Book description</p>
 <p>Price: </p>
 </body>
