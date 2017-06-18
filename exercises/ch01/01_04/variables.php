@@ -18,9 +18,9 @@ $description = 'A hilarious romp. You will love the book, but maybe not the answ
 <h1>Editor's Choice</h1>
 <p>This week's recommended reading:</p>
 <!--echo to display simple variables-->
-<h2><?php echo ($title); ?></h2>
-<p class="author">by <?php print ($author); ?></p>
-<p>Book description</p>
+<h2><?php echo $title; ?></h2>
+<p class="author">by <?php print $author; ?></p>
+<p><?= $description ?></p>
 <p>Price: </p>
 </body>
 </html>
