@@ -13,8 +13,15 @@ $city = 'London';
 <h1>Using Functions</h1>
 <p><span class="label">Original value:</span> <?php echo $city; ?></p>
 <p><span class="label">Uppercase:</span>      <?php echo strtoupper($city); ?></p>
-<?php $converted = strtoupper($city); ?>
-<p><span class="label">Original value:</span> <?php echo $city; ?></p>
+<!--convert lower case word to upper case string-->
+<?php 
+/* original var is preserved
+new var is assigned to converted string */
+$converted = strtoupper($city); //only temporary ?>
+<p><span class="label">Original value:</span> 
+<?php 
+# Original value remains unchanged
+echo $city; ?></p>
 <p><span class="label">Converted value:</span> <?= $converted; ?>
 </body
 ></html>
