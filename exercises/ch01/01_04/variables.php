@@ -22,6 +22,8 @@ $description = 'A hilarious romp. You will love the book, but maybe not the answ
 <p class="author">by <?php print $author; ?></p>
 <!--answer: 42 added space . ' ' .-->
 <p><?= $description . ' ' . $answer; ?></p>
-<p>Price: </p>
+<!--' ' displays string literal vs " " variable-->
+<p><?= "$description $answer"; ?></p>
+<p>Price: $ <?= $price; ?></p>
 </body>
 </html>
